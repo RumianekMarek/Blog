@@ -1,0 +1,87 @@
+
+
+/* global*/
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+body {
+    margin: 0;
+    text-align: center;
+}
+
+#tableOfContent, #tagsTable, #titleDiv {
+    padding: 30px 0;
+}
+/* table of content */
+
+#container {
+    display: flex;
+}
+
+#tableOfContent {
+    flex: 1;
+    flex-direction: column;
+    min-width: 150px;
+    border: 3px solid black;
+}
+
+#tableOfContentDiv{
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+#tableOfContentLink{
+    margin: 3px;
+}
+
+#content {
+    flex: 4;
+    border: 3px solid black;
+}
+
+#tagsTable, {
+    flex: 1;
+    min-width: 100px;
+    border: 3px solid black;
+}
+
+#tocDiv, #tagDiv, #tagsArticles a, #authorsContentDiv a{
+    margin: 5px auto;
+}
+
+/* content */
+
+#title {
+    font-size: 40px;
+}
+
+/* tags */
+
+#contentTags {
+    font-size: 25px;
+    margin: 20px;
+}
+
+#tagsArticles, #authorsContentDiv {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    font-size: 25px;
+}
+/* authors */
+
+#authorsDiv{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px auto;
+}
+
+#authorsDiv a{
+    margin: 2px;
+}
+
+
